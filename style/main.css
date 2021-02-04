@@ -36,8 +36,9 @@ body
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("../images/dust.png");
-	opacity: 0.1;	
+	background: url("../images/white-paper.jpg");
+	/* background: url("../images/white-noise.png") repeat; */
+	opacity: 0.8;	
 }
 
 .container {
