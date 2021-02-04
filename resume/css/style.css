@@ -1,0 +1,70 @@
+@import "../../style/fonts/geomanist/geomanist.css";
+
+* {
+    font-family: 'Geomanist';
+    color: #424f57;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.primary {
+    color: #0592e6;
+}
+
+.secondary {
+    color: #0e6599;
+}
+
+.accent {
+    color: #ffa600;
+}
+
+.gray {
+    color: #97abb8;
+}
+
+h1,h2,h3,h4{
+    font-weight: 700;
+}
+
+h1,h2,h3,h4,h6 {
+    font-family: 'Geomanist';
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h4 {
+    font-size: 120%;
+
+}
+
+h4,h5,h6 {
+    color: #97abb8;
+}
+
+.skill
+{
+    display: inline-flex;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+
+.thin { font-weight: 100;}
+.extraLight { font-weight: 200;}
+.light { font-weight: 300;}
+.regular { font-weight: 400;}
+.book { font-weight: 500;}
+.medium { font-weight: 600;}
+.bold { font-weight: 700;}
+.black { font-weight: 800;}
+.ultra { font-weight: 900;}
+
+@media print {
+    * {
+        font-size: 1.05em;
+    }
+}

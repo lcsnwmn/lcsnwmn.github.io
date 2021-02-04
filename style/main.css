@@ -1,0 +1,239 @@
+@import "fonts/geomanist/geomanist.css";
+
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body 
+{
+	cursor: default;	
+	font-family: 'Geomanist';
+	font-size: 2rem;
+	font-weight: 100;
+	color: #424f57;
+
+}
+
+.primary {
+    color: #0592e6;
+}
+
+.secondary {
+    color: #0e6599;
+}
+
+.accent {
+    color: #ffa600;
+}
+
+
+
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("../images/dust.png");
+	opacity: 0.1;	
+}
+
+.container {
+	display: flex;
+	margin: 10px 50px;
+	justify-content: center;
+}
+
+a, a:visited {	
+	font-weight: 600;
+	color:#0e6599;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #ffa600;
+}
+
+
+.name {
+	line-height: 80px;
+	padding-bottom: 20px;
+}
+
+.thicc {
+	font-size: 5rem;
+	font-weight: 800;
+}
+
+.thin {
+	font-size: 5rem;
+	font-weight: 300;
+}
+
+.flex {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.contactRow {
+	margin-top: 30px;
+}
+
+.info {
+	width:600px;
+	margin: 20px;
+}
+
+.headshot {
+	object-fit: contain;
+}
+
+@media(max-width:1450px) {
+	.flex {
+		flex-direction: row;
+	}
+
+	.info {
+		width: 100%;
+	}
+
+	.headshot {
+		clear: both;
+	}
+
+	.headshot img {
+		height: 300px;
+	}
+}
+
+
+
+/* 
+
+li
+{
+	cursor: default;
+	list-style-type: none;
+}
+
+.menuLi, .menuLi>a
+{
+	font-size: 5rem;
+	font-weight: 800;
+}
+
+a 
+{
+	outline: 0;
+}
+
+#menu 
+{
+	z-index: 99;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:100%;
+	max-width:910px;
+	height:100%;
+}
+
+.aboutPage, .resumePage
+{
+	display: none;
+}
+
+.backLi
+{
+	z-index: 9999;
+	text-align: right;
+}
+
+#menu rect:not(.name)
+{
+	cursor: pointer;
+}
+
+.name
+{
+	cursor: default;
+}
+
+.menuLi:not(.active) svg, .backLi:not(.active) svg
+{
+	opacity: 0.7;
+}
+
+.active, .svg:hover, .svg:active, .svg:focus
+{
+	opacity: 1;			
+}
+
+path:not(.active)
+{			
+	fill: white;
+	/* url(#gradient); 
+}
+
+.svg.back
+{
+	max-width:80px;
+	height: 50px;
+	margin-right:6px;
+}
+
+#image
+{
+	position: fixed;
+	right: 20px;
+	bottom: 0px;
+	vertical-align: bottom;
+	width: 80%;
+	max-width: 800px;
+	min-width: 400px;
+	min-height: 300px;
+}
+
+#image svg
+{
+	display: block;
+}
+
+.bio p
+{
+	letter-spacing: -2px;
+	line-height: 100%;
+	margin: 6px;
+	max-width: 1000px;
+	min-height: 300px;
+	font-size: 40px;
+	font-weight: 200;
+	color: rgba(255, 255, 255, 0.7);
+	letter-spacing: -2px;
+}
+
+#resumeContainer
+{
+	padding: 6px 8px;
+	max-width: 895px;
+}
+
+#resumeFrame
+{
+	border: none;
+	width: 100%;
+	display: inline-block;  
+	height: 100%;
+}
+ */

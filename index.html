@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Lucas Newman</title>
+
+	<link href='style/main.css' rel='stylesheet' type='text/css'>
+
+	<script src="script/jquery.min.js"></script>
+	<script src="script/main.js"></script>
+	<script>
+		$(document).ready(function () {
+			var proYears = Math.round(new Date(new Date() - startDate) / 1000 / 60 / 60 / 24 / 365 * 100) / 100;
+			$("#bio").html($("#bio").html().replace("{proYears}", proYears));
+		});
+	</script>
+</head>
+
+<body>
+<div class="background">
+</div> 
+
+<div class="container flex justify-center">
+
+	<div class="info">
+		<div class="name flex">
+			<span class="thicc primary">Lucas</span>&nbsp;<span class="thicc secondary" >Newman</span>
+		</div>
+
+		<p id="bio">has been writing code for a living for {proYears} years. 
+			He graduated from the University of Delaware with a BS in Computer Science, a Web Applications concentration, and an Interactive Media minor.
+			He's good with the entire Microsoft software stack, including C#, .Net, and Sql Server, but recently he's been using technologies such as 
+			Ionic and Angular to create hybrid mobile apps.
+			He's got an eye for user experience, and a passion for clean and elegant code.
+		</p>
+
+		<div class="flex space-between contactRow">
+			<a href="resume">
+				resume
+			</a>
+			<a href="http://github.com/lcsnwmn">
+				github
+			</a>
+			<a href="mailto:hi@lcsnw.mn?subject=hi" target="_top">
+				contact
+			</a>
+		</div>
+	</div>
+		
+
+	<div class="headshot">
+		<img src="images/lucas_profile.png">
+	</div>
+	
+
+</div>
+</body>
+
+</html>
