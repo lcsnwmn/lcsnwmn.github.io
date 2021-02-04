@@ -53,18 +53,9 @@ h4,h5,h6 {
     border-radius: 5px;
 }
 
-.thin { font-weight: 100;}
-.extraLight { font-weight: 200;}
-.light { font-weight: 300;}
-.regular { font-weight: 400;}
-.book { font-weight: 500;}
-.medium { font-weight: 600;}
-.bold { font-weight: 700;}
-.black { font-weight: 800;}
-.ultra { font-weight: 900;}
-
 @media print {
     * {
         font-size: 1.05em;
     }
+    
 }

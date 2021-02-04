@@ -197,3 +197,14 @@
          url('Geomanist-Ultra-Italic-Webfont/geomanist-ultra-italic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
          url('Geomanist-Ultra-Italic-Webfont/geomanist-ultra-italic-webfont.svg#geomanistregular') format('svg'); /* Legacy iOS */
 }
+
+
+.thin { font-weight: 100;}
+.extraLight { font-weight: 200;}
+.light { font-weight: 300;}
+.regular { font-weight: 400;}
+.book { font-weight: 500;}
+.medium { font-weight: 600;}
+.bold { font-weight: 700;}
+.black { font-weight: 800;}
+.ultra { font-weight: 900;}
