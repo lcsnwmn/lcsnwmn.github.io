@@ -36,7 +36,7 @@ body
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("../images/white-paper.jpg");
+	background: url("../images/white-paper.jpg") fixed;
 	/* background: url("../images/white-noise.png") repeat; */
 	opacity: 0.8;	
 }
