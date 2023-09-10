@@ -1,4 +1,4 @@
-@import "fonts/geomanist/geomanist.css";
+/* @import "fonts/geomanist/geomanist.css"; */
 
 * 
 {
@@ -9,26 +9,28 @@
 body 
 {
 	cursor: default;	
-	font-family: 'Geomanist';
+	font-family: 'Vollkorn', serif;
 	font-size: 1.8rem;
 	font-weight: 100;
-	color: #1c1f20;
+	color: #12263A;
 
+}
+
+#bio {
+    font-family: 'EB Garamond', serif;
 }
 
 .primary {
-    color: #0592e6;
+    color: #7DC1D8;
 }
 
 .secondary {
-    color: #0e6599;
+    color: #525A7B;
 }
 
-.accent {
-    color: #ffa600;
+.gray {
+    color: #B2B6CB;
 }
-
-
 
 .background {
 	position: fixed;
@@ -49,16 +51,17 @@ body
 
 a, a:visited {	
 	font-weight: 600;
-	color:#0592e6;
+	color:#7DC1D8;
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	color: #ffa600;
+	color: #525A7B;
 }
 
 
 .name {
+    font-weight: 900;
 	margin-top: 30px;
 	font-size: 5rem;
 	line-height: 60px;
