@@ -9,7 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Prompt:wght@200;400;500;800&family=Vollkorn&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline.css">
 
@@ -18,26 +20,19 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="row align-items-baseline">
-                    <h1 class="col-auto secondary mt-2 mr-3 black">Lucas Newman</h1>&nbsp;
-                    <h2 class="col-auto accent light pad">Software Engineer</h2>
-                </div>
-
-                <div class="row">
-                    <h5 class="col-auto book">lcsnw.mn</h5>
-                    <h5 class="col-auto book">hi@lcsnw.mn</h5>
-                    <h5 class="col-auto book">github.com/lcsnwmn</h5>
-                    <h5 class="col-auto book">(240) 291-5624</h5>
-                </div>
-
+        <div id="header" class="row align-items-baseline">
+            <h1 class="col-auto primary mt-2 heavy">Lucas Newman</h1>
+            <h2 class="col secondary mid text-nowrap">Software Engineer</h2>
+            <div class="row col-12 col-lg-auto pb-3">
+                <h6 class="col-auto gray">lcsnw.mn</h6>
+                <h6 class="col-auto gray">hi@lcsnw.mn</h6>
+                <h6 class="col-auto gray">github.com/lcsnwmn</h6>
+                <h6 class="col-auto gray">(240) 291-5624</h6>
             </div>
         </div>
-        <br/>
         <div class="row">
             <div class="col-12 col-md-10">
-                <h3 class="secondary bold">Experience</h3>
+                <h3 class="secondary mid">Experience</h3>
 
                 <ul class="timeline">
                     <li>
@@ -45,22 +40,22 @@
                         <div class="timeline-panel">
                             <!-- InsurePay -->
                             <div class="row align-items-baseline">
-                                <div class="col col-md-auto order-1">
-                                    <h4><span class="accent black">InsurePay</span>
-                                        <span class="gray light"> - Sarasota, FL</span></h4>
+                                <div class="flex align-items-baseline col col-lg-auto order-1">
+                                    <h4 class="primary mid pr-1">InsurePay</h4>
+                                    <h6 class="gray "> - Sarasota, FL</h6>
                                 </div>
-                                <div class="col-12 col-md order-last order-md-2 " >
-                                    <h5 class="book">Software Developer</h5>
+                                <div class="col-12 col-lg order-last order-lg-2" >
+                                    <h5 class="secondary mid">Software Developer</h5>
                                 </div>
-                                <div class="col-auto order-3 ">
-                                    <h6 class="light">August 2021 - Present</h6>
+                                <div class="col-auto order-3">
+                                    <h6 class="gray ">August 2021 - Present</h6>
                                 </div>
                             </div>
-                            <p>
+                            <p class="body">
                                 As an experienced full stack developer on a small remote development team, I develop and maintain a web application 
                                 serving the worker's compensation insurance industry. While I am the primary developer on our Angular web app, 
                                 I also contribute to our C# WebApi, and SQL Server databases, among other tools. While enhancing the
-                                functionality of the app, I have also refactored it to meet current Angular standards, and implemented NGRX for 
+                                functionality of the app, I have also refactored it to conform to current Angular best practices, and implemented NgRx for 
                                 data retrieval and storage.
                             </p>
                         </div>
@@ -71,18 +66,18 @@
                         <div class="timeline-panel">
                             <!-- CBORD -->
                             <div class="row align-items-baseline">
-                                <div class="col col-md-auto order-1">
-                                    <h4><span class="accent black">CBORD</span>
-                                        <span class="gray light"> - Ithaca, NY</span></h4>
+                                <div class="flex align-items-baseline col col-lg-auto order-1">
+                                    <h4 class="primary mid pr-1">CBORD</h4>
+                                    <h6 class="gray "> - Ithaca, NY</h6>
                                 </div>
-                                <div class="col-12 col-md order-last order-md-2 " >
-                                    <h5 class="book">Senior Software Engineer</h5>
+                                <div class="col-12 col-lg order-last order-lg-2" >
+                                    <h5 class="secondary mid">Senior Software Engineer</h5>
                                 </div>
-                                <div class="col-auto order-3 ">
-                                    <h6 class="light">September 2016 - August 2021</h6>
+                                <div class="col-auto order-3">
+                                    <h6 class="gray ">September 2016 - August 2021</h6>
                                 </div>
                             </div>
-                            <p>
+                            <p class="body">
                                 As a member of a fully remote agile development team, I am responsible for maintaining and enhancing N-Tiered web applications
                                 utilizing many technologies including ASP.NET, C#, Microsoft SQL Server, KendoUI, Angular,
                                 and Sass. My primary role is as the lead developer on a mobile application created using
@@ -96,21 +91,20 @@
                     <li>
                         <div class="timeline-badge"> </div>
                         <div class="timeline-panel">
-
                             <!-- AMCS -->
                             <div class="row align-items-baseline">
-                                <div class="col col-md-auto order-1">
-                                    <h4><span class="accent black">AMCS</span>
-                                        <span class="gray light"> - Oxford, PA</span></h4>
+                                <div class="flex align-items-baseline col col-lg-auto order-1">
+                                    <h4 class="primary mid pr-1">AMCS</h4>
+                                    <h6 class="gray "> - Oxford, PA</h6>
                                 </div>
-                                <div class="col-12 col-md order-last order-md-2 extraLight">
-                                    <h5 class="book">Application Developer</h5>
+                                <div class="col-12 col-lg order-last order-lg-2" >
+                                    <h5 class="secondary mid">Application Developer</h5>
                                 </div>
-                                <div class="col-auto order-3 thin">
-                                    <h6 class="light">February 2014 - September 2016</h6>
+                                <div class="col-auto order-3">
+                                    <h6 class="gray ">February 2014 - September 2016</h6>
                                 </div>
                             </div>
-                            <p>
+                            <p class="body">
                                 I worked remotely as a member of a small team on both an on-premise Windows forms application, as well as a .Net web application
                                 serving the resource management industry. I implemented enhancements as well as custom work
                                 requests in Windows forms, C# web services and code-behind, Microsoft SQL Server, ASP.Net,
@@ -124,18 +118,18 @@
                         <div class="timeline-panel">
                             <!-- IONX -->
                             <div class="row align-items-baseline">
-                                <div class="col col-md-auto order-1">
-                                    <h4><span class="accent black">IONX</span>
-                                        <span class="gray light"> - West Chester, PA</span></h4>
+                                <div class="flex align-items-baseline col col-lg-auto order-1">
+                                    <h4 class="primary mid pr-1">IONX</h4>
+                                    <h6 class="gray "> - West Chester, PA</h6>
                                 </div>
-                                <div class="col-12 col-md order-last order-md-2 extraLight">
-                                    <h5 class="book">Software Engineer</h5>
+                                <div class="col-12 col-lg order-last order-lg-2" >
+                                    <h5 class="secondary mid">Software Engineer</h5>
                                 </div>
-                                <div class="col-auto order-3 thin">
-                                    <h6 class="light">December 2011 - February 2014</h6>
+                                <div class="col-auto order-3">
+                                    <h6 class="gray ">December 2011 - February 2014</h6>
                                 </div>
                             </div>
-                            <p>
+                            <p class="body">
                                 As a member of a small team, I was responsible for the creation of a Silverlight web application designed to monitor unpowered
                                 assets for the rail industry. I co-architected systems for message transfer, event brokerage,
                                 and data display. I also developed an engine for auditing freight car maintence billing records.
@@ -151,18 +145,18 @@
                         <div class="timeline-panel">
                             <!-- Ventyx -->
                             <div class="row align-items-baseline">
-                                <div class="col col-md-auto order-1">
-                                    <h4><span class="accent black">Ventyx</span>
-                                        <span class="gray light"> - Chadds Ford, PA</span></h4>
+                                <div class="flex align-items-baseline col col-lg-auto order-1">
+                                    <h4 class="primary mid pr-1">Ventyx</h4>
+                                    <h6 class="gray "> - Chadds Ford, PA</h6>
                                 </div>
-                                <div class="col-12 col-md order-last order-md-2 extraLight">
-                                    <h5 class="book">Software Developer</h5>
+                                <div class="col-12 col-lg order-last order-lg-2" >
+                                    <h5 class="secondary mid">Software Developer</h5>
                                 </div>
-                                <div class="col-auto order-3 thin">
-                                    <h6 class="light">January 2009 - December 2011</h6>
+                                <div class="col-auto order-3">
+                                    <h6 class="gray ">January 2009 - December 2011</h6>
                                 </div>
                             </div>
-                            <p>
+                            <p class="body">
                                 I created, maintained, and enhanced ASP.Net web applications for the nuclear industry, focusing on equipment reliability
                                 and access authorization. I used C# in ASP.Net, Microsoft SQL Server, and Oracle databases.
                             </p>
@@ -170,29 +164,24 @@
                     </li>
                 </ul>
 
-
-
-
-
-
-                <h3 class="secondary bold">Education</h3>
+                <h3 class="secondary mid">Education</h3>
                 <ul class="timeline mb-0">
                     <li>
                         <div class="timeline-badge"> </div>
                         <div class="timeline-panel">
                             <div class="row">
                                 <div class="col">
-                                    <h4 class="accent black">University of Delaware</h4>
+                                    <h4 class="primary mid">University of Delaware</h4>
                                 </div>
                                 <div class="col-auto">
-                                    <h6 class="light">September 2005 - January 2009</h6>
+                                    <h6 class="gray">September 2005 - January 2009</h6>
                                 </div>
                             </div>
                             <div>
                                 <ul>
-                                    <li>Bachelor of Science, Computer Science</li>
-                                    <li>Web Applications Concentration</li>
-                                    <li>Interactive Media Minor</li>
+                                    <li class="body">Bachelor of Science, Computer Science</li>
+                                    <li class="body">Web Applications Concentration</li>
+                                    <li class="body">Interactive Media Minor</li>
                                 </ul>
                             </div>
                         </div>
@@ -203,18 +192,25 @@
 
 
             <div class="col-12 col-md-2 order-last order-md-first">
-                    <h3 class="secondary bold">Skills</h3>
+                    <h3 class="secondary mid">Skills</h3>
                     <div class="skill">Typescript</div>
                     <div class="skill">Angular</div>
+                    <div class="skill">NgRx</div>
                     <div class="skill">C#</div>
                     <div class="skill">ASP.NET</div>
                     <div class="skill">.Net Core</div>
                     <div class="skill">LINQ</div>
-                    <div class="skill">Microsoft SQL Server</div>
+                    <div class="skill">REST</div>
+                    <div class="skill">SQL</div>
                     <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
                     <div class="skill">SASS</div>
+                    <div class="skill">Bootstrap</div>
+                    <div class="skill">JS</div>
+                    <div class="skill">jQuery</div>
                     <div class="skill">Ionic</div>
                     <div class="skill">Cordova</div>
+                    <div class="skill">Kendo UI</div>
                     <div class="skill">Node.js</div>
                     <div class="skill">Git</div>
                     <div class="skill">CodeBuild</div>
@@ -222,23 +218,13 @@
                     <div class="skill">CloudFormation</div>
                     <div class="skill">S3</div>
                     <div class="skill">CloudFront</div>
-                    
-                    <h3 class="secondary mt-5 bold">References</h3>
-                    <p>Available upon request</p>
-    
+                    <div class="skill">Azure DevOps</div>
+                    <div class="skill">Jira</div>    
+                    <div class="skill">BitBucket</div>   
+                    <div class="skill">Confluence</div>   
                 </div>
-
-
-
-
         </div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
 </body>

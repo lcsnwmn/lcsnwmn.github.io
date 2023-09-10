@@ -1,51 +1,40 @@
-@import "../../style/fonts/geomanist/geomanist.css";
-
 * {
-    font-family: 'Geomanist';
-    color: #424f57;
+    font-family: 'Vollkorn', serif;
+    color: #12263A;
     font-size: 1em;
-    font-weight: 300;
+}
+
+.body {
+    font-family: 'EB Garamond', serif;
 }
 
 .primary {
-    color: #0592e6;
+    color: #7DC1D8;
 }
 
 .secondary {
-    color: #0e6599;
-}
-
-.accent {
-    color: #ffa600;
+    color: #525A7B;
 }
 
 .gray {
-    color: #97abb8;
+    color: #B2B6CB;
 }
 
-h1,h2,h3,h4{
+.flex {
+    display: flex;
+}
+
+.mid {
     font-weight: 700;
 }
 
-h1,h2,h3,h4,h6 {
-    font-family: 'Geomanist';
-}
-
-h3 {
-    font-size: 140%;
-}
-
-h4 {
-    font-size: 120%;
-
-}
-
-h4,h5,h6 {
-    color: #97abb8;
+.heavy {
+    font-weight: 900;
 }
 
 .skill
 {
+    font-family: 'EB Garamond', serif;
     display: inline-flex;
     padding: 5px 10px;
     margin: 5px;
@@ -55,7 +44,6 @@ h4,h5,h6 {
 
 @media print {
     * {
-        font-size: 1.05em;
+        font-size: 1.02em;
     }
-    
 }
