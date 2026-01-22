@@ -1,0 +1,143 @@
+{
+    "contact-info": {
+        "h1": "Lucas Newman",
+        "items": [
+            {
+                "icon-classes": "fa-regular fa-envelope",
+                "link": "mailto:hi@lcsnw.mn",
+                "display": "hi@lcsnw.mn"
+            },
+            {
+                "icon-classes": "fa-regular fa-phone",
+                "link": "tel:+12402915624",
+                "display": "240.291.5624"
+            },
+            {
+                "icon-classes": "fa-brands fa-github",
+                "link": "https://github.com/lcsnwmn",
+                "display": "github.com/lcsnwmn"
+            },
+            {
+                "icon-classes": "fa-solid fa-location-dot",
+                "display": "Hagerstown, MD"
+            }
+        ]
+    },
+    "summary": {
+        "h2": "Professional Summary",
+        "items": [
+            "Full-stack software engineer with over 15 years experience with the agile software development lifestyle. Deeply experienced with the Microsoft tech stack, as well as front-end frameworks like Angular. Committed to producing quality code and exercising industry best practices. Demonstrates excellence in collaboration, communication, and documentation."
+        ]
+    },
+    "work-history": {
+        "h2": "Work History",
+        "items": [
+            {
+                "company": "InsurePay",
+                "title": "Senior Full-stack Software Engineer",
+                "location": "Nashville, TN",
+                "start": "August 2021",
+                "end": "Current",
+                "duties": [
+                    "Enhanced SaaS web applications facilitating Pay-As-You-Go functionality for worker's compensation insurance.",
+                    "Implemented Single Sign-on with OpenID Connect and NgRx data storage within our Angular application.",
+                    "Refactored our software offerings to meet modern best practices and design principals.",
+                    "Collaborated with cross-functional teams and participated in SCRUM ceremonies.",
+                    "Participated in the entire software development lifecycle, including engineering approval and estimation, implementation, code reviews, CI/CD, documentation, release management"
+                ]
+            },
+            {
+                "company": "CBORD",
+                "title": "Senior Software Engineer",
+                "location": "Ithaca, NY",
+                "start": "September 2016",
+                "end": "August 2021",
+                "duties": [
+                    "Enhanced N-Tiered web applications utilizing technologies including ASP.NET, C#, Microsoft SQL Server, KendoUI, Angular, and SASS",
+                    "Utilized pair programming within a remote development team",
+                    "Participated in all Agile ceremonies: planning, estimation, demos, retrospectives",
+                    "Spearheaded development of a mobile application created using Ionic Framework, Angular, Typescript, Cordova, and Gradle.",
+                    "Configured software in AWS, utilizing CodeBuild, CodePipeline, CloudFront, and CloudFormation."
+                ]
+            },
+            {
+                "company": "AMCS",
+                "title": "Application Developer",
+                "location": "Oxford, PA",
+                "start": "February 2014",
+                "end": "September 2016",
+                "duties": [
+                    "I worked remotely as a member of a small team on both an on-premise Windows forms application, as well as a .Net web application serving the resource management industry.",
+                    "I implemented enhancements as well as custom work requests in Windows forms, C# web services and code-behind, Microsoft SQL Server, ASP.Net, JQuery, and CSS."
+                ]
+            },
+            {
+                "company": "IONX",
+                "title": "Software Engineer",
+                "location": "West Chester, PA",
+                "start": "December 2011",
+                "end": "February 2014",
+                "duties": [
+                    "As a member of a small team, I was responsible for the creation of a Silverlight web application designed to monitor unpowered assets for the rail industry.",
+                    "I co-architected systems for message transfer, event brokerage, and data display.",
+                    "I also developed an engine for auditing freight car maintence billing records.",
+                    "I used tools such as C#, Silverlight with MVVM, Microsoft SQL Server, Entity Framework, and WPI."
+                ]
+            },
+            {
+                "company": "Ventyx",
+                "title": "Software Developer",
+                "location": "Chadds Ford, PA",
+                "start": "December 2011",
+                "end": "February 2014",
+                "duties": [
+                    "I created, maintained, and enhanced ASP.Net web applications for the nuclear industry, focusing on equipment reliability and access authorization.",
+                    "I used C# in ASP.Net, Microsoft SQL Server, and Oracle databases."
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "h2": "Skills",
+        "items": [
+            "TypeScript",
+            "Javascript",
+            "Angular",
+            "NgRx",
+            "Node.js",
+            "C#",
+            "Microsoft SQL Server",
+            ".NET",
+            "RESTful Web API",
+            "LINQ",
+            "Git",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Tailwind",
+            "Jira",
+            "Confluence",
+            "Azure DevOps",
+            "Continuous Integration",
+            "Continuous Deployment",
+            "Agile Software Development",
+            "SCRUM",
+            "OpenID Connect",
+            "Microsoft Entra ID"
+        ]
+    },
+    "education": {
+        "h2": "Education",
+        "items": [
+            {
+                "school": "University of Delaware",
+                "location": "Newark, DE",
+                "graduation-year": "2009",
+                "degree": "Bachelor of Science",
+                "major": "Computer and Information Science",
+                "minor": "Interactive Media",
+                "concentration": "Web Applications"
+            }
+        ]
+    }
+}
