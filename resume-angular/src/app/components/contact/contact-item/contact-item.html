@@ -1,0 +1,11 @@
+<div class="contact-item">
+    @if (!!itemInfo.icon) {
+    <lucide-icon [img]="getIcon(itemInfo.icon)"></lucide-icon>
+    }
+    @if (!!itemInfo.link) {
+    <a [href]="itemInfo.link">{{itemInfo.display}}</a>
+    }
+    @else {
+    <span>{{itemInfo.display}}</span>
+    }
+</div>

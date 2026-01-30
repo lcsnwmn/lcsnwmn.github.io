@@ -1,0 +1,7 @@
+<header class="skills-category-header">{{ categoryInfo?.categoryName }}</header>
+
+<ul>
+    @for (item of categoryInfo?.items; track $index) {
+    <li>{{ item }}</li>
+    }
+</ul>

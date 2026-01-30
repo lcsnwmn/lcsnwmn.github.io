@@ -1,0 +1,5 @@
+<!-- <header><span class="ostritch-med">{{ sectionInfo?.firstName }}</span> <span class="ostritch-hvy">{{ sectionInfo?.lastName }}</span></header> -->
+
+@for (item of sectionInfo?.items; track $index) {
+<contact-item [itemInfo]="item"></contact-item>
+}

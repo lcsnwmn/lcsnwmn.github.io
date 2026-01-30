@@ -1,0 +1,33 @@
+.first-section {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.sidebar {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    border-image: var(--gradient) 1;
+    background: var(--gradient);
+    color: var(--text-color-light);
+    mix-blend-mode: difference;
+    height: fit-content;
+}
+
+.sidebar>div {
+    padding:1rem;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+:host {
+    font-family: 'Inter';
+    color: var(--text-color-dark);
+    margin: 0px;
+}

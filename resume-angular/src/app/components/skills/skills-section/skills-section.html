@@ -1,0 +1,5 @@
+<header class="section-header">{{ sectionInfo?.header?.content }}</header>
+
+@for (item of sectionInfo?.items; track $index) {
+<skills-category [categoryInfo]="item"></skills-category>
+}

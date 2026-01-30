@@ -1,0 +1,17 @@
+<div class="first-section">
+        <summary-section [sectionInfo]="(data$ | async)?.summary"></summary-section>
+        <contact-section [sectionInfo]="(data$ | async)?.contactInfo"></contact-section>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <div>
+            <skills-section [sectionInfo]="(data$ | async)?.skills"></skills-section>
+            <education-section [sectionInfo]="(data$ | async)?.education"></education-section>
+        </div>
+
+    </div>
+    <div class="main-content">
+        <work-history-section [sectionInfo]="(data$ | async)?.workHistory"></work-history-section>
+    </div>
+</div>

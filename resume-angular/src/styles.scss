@@ -1,0 +1,87 @@
+:root {
+    --text-color-dark: #364958;
+    --text-color-light: #D1DDE6;
+    --link-color: #5ADBFF;
+    --color-1: #002CCB;
+    --color-2: #7A63FF;
+    --gradient: -webkit-linear-gradient(270deg, var(--color-1), var(--color-2));
+}
+
+@font-face {
+    font-family: 'Ostrich Light';
+    src: url('../public/fonts/OstrichSans-Light.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'Ostrich Medium';
+    src: url('../public/fonts/OstrichSansRounded-Medium.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'Ostrich Heavy';
+    src: url('../public/fonts/OstrichSans-Heavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ostrich Black';
+    src: url('../public/fonts/OstrichSans-Black.otf') format('opentype');
+}
+
+.ostritch-lt {
+    font-family: 'Ostrich Light', sans-serif;
+}
+
+.ostritch-med {
+    font-family: 'Ostrich Medium', sans-serif;
+}
+
+.ostritch-hvy {
+    font-family: 'Ostrich Heavy', sans-serif;
+}
+
+.ostritch-blk {
+    font-family: 'Ostrich Black', sans-serif;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../public/fonts/InterDisplay-Regular.woff2') format('woff2');
+}
+
+.inter {
+    font-family: 'Inter';
+}
+
+body {
+    margin: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.section-header {
+    font-size: 2em;
+    font-family: 'Ostrich Heavy', sans-serif;
+}
+
+
+
+
+
+
+@media print {
+
+    a,
+    a:hover,
+    a:active,
+    a:visited {
+        color: var(--text-color-dark);
+    }
+}

@@ -1,0 +1,11 @@
+<div>
+    <div>{{ itemInfo?.companyName }}</div>
+    <div>{{ itemInfo?.companyLocation }}</div>
+    <div>{{ itemInfo?.jobTitle }}</div>
+    <div>{{ itemInfo?.employmentStart }} - {{ itemInfo?.employmentEnd }}</div>
+    <ul>
+        @for (item of itemInfo?.highlights; track $index) {
+        <li>{{ item }}</li>
+        }
+    </ul>
+</div>
