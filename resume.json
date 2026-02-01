@@ -1,0 +1,137 @@
+{
+    "contactInfo": [
+        {
+            "icon": "mail",
+            "link": "mailto:hi@lcsnw.mn",
+            "display": "hi@lcsnw.mn"
+        },
+        {
+            "icon": "phone",
+            "link": "tel:+12402915624",
+            "display": "240.291.5624"
+        },
+        {
+            "icon": "github",
+            "link": "https://github.com/lcsnwmn",
+            "display": "github.com/lcsnwmn"
+        },
+        {
+            "icon": "map-pin",
+            "display": "Hagerstown, MD"
+        }
+    ],
+    "summary": "I am a full-stack software engineer with over 15 years experience in agile software development. My bread and butter are the Microsoft Tech stack and the Angular ecosystem. I am deeply committed to producing quality code and advocating for industry best practices. I place the utmost importance on collaboration, communication, and documentation.",
+    "workHistory": [
+        {
+            "companyName": "InsurePay",
+            "jobTitle": "Senior Full-stack Software Engineer",
+            "companyLocation": "Nashville, TN",
+            "employmentStart": "August 2021",
+            "employmentEnd": "Current",
+            "highlights": [
+                "Developed and enhanced SaaS web applications facilitating Pay-As-You-Go functionality for worker's compensation insurance.",
+                "Implemented Single Sign-on with OpenID Connect and NgRx data storage within our Angular application.",
+                "Refactored our software offerings to meet modern best practices and design principals.",
+                "Collaborated with cross-functional teams and participated in the entire SLDC, including engineering approval and estimation, implementation, code reviews, CI/CD, documentation, release management"
+            ]
+        },
+        {
+            "companyName": "CBORD",
+            "jobTitle": "Senior Software Engineer",
+            "companyLocation": "Ithaca, NY",
+            "employmentStart": "September 2016",
+            "employmentEnd": "August 2021",
+            "highlights": [
+                "Developed and enhanced N-Tiered web applications facilitating clinical nutrition and inventory management",
+                "Practiced pair programming within a remote development team",
+                "Participated in Agile ceremonies such as planning, estimation, demos, retrospectives",
+                "Spearheaded development of a multiplatform mobile application created using Ionic Framework",
+                "Configured CI/CD in AWS, utilizing CodeBuild, CodePipeline, CloudFront, and CloudFormation."
+            ]
+        },
+        {
+            "companyName": "AMCS",
+            "jobTitle": "Application Developer",
+            "companyLocation": "Oxford, PA",
+            "employmentStart": "February 2014",
+            "employmentEnd": "September 2016",
+            "highlights": [
+                "Developed highly configurable desktop and web software offerings serving the resource management industry",
+                "Implemented custom work requests in Windows forms, ASP.NET, and Crystal/Active Reports"
+            ]
+        },
+        {
+            "companyName": "IONX",
+            "jobTitle": "Software Engineer",
+            "companyLocation": "West Chester, PA",
+            "employmentStart": "December 2011",
+            "employmentEnd": "February 2014",
+            "highlights": [
+                "Developed a Silverlight web application facilitating the monitoring of unpowered assets for the rail industry.",
+                "Architected systems for message transfer, event brokerage, and data display.",
+                "Created an engine for auditing freight car maintence billing records."
+            ]
+        },
+        {
+            "companyName": "Ventyx",
+            "jobTitle": "Software Developer",
+            "companyLocation": "Chadds Ford, PA",
+            "employmentStart": "December 2011",
+            "employmentEnd": "February 2014",
+            "highlights": [
+                "I created, maintained, and enhanced ASP.Net web applications for the nuclear industry, focusing on equipment reliability and access authorization."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "categoryName": "Technologies",
+            "items": [   
+                "Angular",
+                "TypeScript",
+                "JavaScript", 
+                "Node.js",
+                "jQuery",
+                "C#",
+                ".NET",
+                "SQL Server",
+                "git",
+                "Bootstrap",
+                "Tailwind",            
+                "HTML",
+                "CSS",
+                "NgRx",
+                "LINQ", 
+                "Docker",               
+                "OIDC",
+                "Entra ID",
+                "Jira",
+                "Confluence"
+            ]
+        },
+        {
+            "categoryName": "Skills",
+            "items": [
+                "Agile software development",
+                "Cross-functional collaboration",
+                "Process Improvement",
+                "RESTful Web Services",
+                "SCRUM",
+                "CI/CD",
+                "Unit Testing",
+                "Microservices"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "schoolName": "University of Delaware",
+            "schoolLocation": "Newark, DE",
+            "graduationYear": "2009",
+            "degree": "BS - Computer Science",
+            "major": "Computer and Information Science",
+            "minor": "Interactive Media",
+            "concentration": "Web Applications"
+        }
+    ]
+}
