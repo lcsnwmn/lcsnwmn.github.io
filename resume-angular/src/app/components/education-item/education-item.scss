@@ -1,0 +1,36 @@
+.education-item {
+    padding: .5em 0em;
+}
+
+.degree
+{
+    font-size: 1.2em;
+    color: var(--color-1);
+    font-family: 'Safiro Bold';
+    padding-bottom: 1px;
+}
+
+.school-name {
+    font-size: 1em;
+    color: var(--color-3);
+    font-family: 'Ostrich Heavy';
+    letter-spacing: 1px;
+    margin-left: 2px;
+}
+
+.school-location, .graduation-year {
+    font-family: 'Ostrich Medium';
+    color: var(--text-color-6);
+    display: inline-flex;
+    gap: 2px;
+    letter-spacing: 1px;
+}
+
+.school-location {
+    margin-left: 5px;
+}
+
+.graduation-year {
+    font-style: italic;
+    flex-wrap: nowrap;
+}

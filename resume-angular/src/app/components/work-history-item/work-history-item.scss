@@ -1,0 +1,35 @@
+.work-history-item {
+    padding: .5em;
+}
+
+.job-title {
+    font-size: 1.3em;
+    color: var(--color-1);
+    font-family: 'Safiro Bold';
+    padding-bottom: 1px;
+}
+
+.company-name {
+    font-size: 1em;
+    color: var(--color-3);
+    font-family: 'Ostrich Heavy';
+    letter-spacing: 1px;
+    margin-left: 2px;
+}
+
+.employment-dates, .company-location {
+    font-family: 'Ostrich Medium';
+    color: var(--text-color-6);
+    display: inline-flex;
+    gap: 2px;
+
+    letter-spacing: 1px;
+}
+
+.employment-dates {
+    font-style: italic;
+}
+
+.company-location {
+    margin-left: 5px;
+}

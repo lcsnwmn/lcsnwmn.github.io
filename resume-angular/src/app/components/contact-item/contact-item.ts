@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { LucideAngularModule, MailIcon, PhoneIcon, MapPinIcon } from 'lucide-angular';
-import { IContactItem } from '../../../models/resume.model';
+import { IContactItem } from '../../models/resume.model';
 import { GithubIcon } from 'lucide-angular/src/icons';
 
 @Component({

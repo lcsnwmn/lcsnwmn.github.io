@@ -1,0 +1,25 @@
+<div class="education-item">
+    <div class="left-right">
+        <div class="degree">
+            {{ itemInfo?.degree }} 
+        </div>
+        <div class="graduation-year">
+            <lucide-icon [img]="GraduationCapIcon" size="16" strokeWidth="1"></lucide-icon>
+            <span>{{ itemInfo?.graduationYear }}</span>
+        </div>
+    </div>
+
+    <div class="left-left">
+        <div class="school-name">{{ itemInfo?.schoolName }}</div>
+        <div class="school-location">
+            <lucide-icon [img]="SchoolIcon" size="16" strokeWidth="1"></lucide-icon>
+            {{ itemInfo?.schoolLocation }}
+        </div>
+    </div>
+
+    <ul>
+        <li>{{ itemInfo?.minor }} minor</li>
+        <li>{{ itemInfo?.concentration }} concentration</li>
+    </ul>
+
+</div>

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ISkillsCategory } from '../../../models/resume.model';
+import { ISkillsCategory } from '../../models/resume.model';
 
 @Component({
   selector: 'skills-category',

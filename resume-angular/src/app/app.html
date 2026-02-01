@@ -1,17 +1,36 @@
-<div class="first-section">
-        <summary-section [sectionInfo]="(data$ | async)?.summary"></summary-section>
-        <contact-section [sectionInfo]="(data$ | async)?.contactInfo"></contact-section>
-</div>
-
-<div class="container">
-    <div class="sidebar">
-        <div>
-            <skills-section [sectionInfo]="(data$ | async)?.skills"></skills-section>
-            <education-section [sectionInfo]="(data$ | async)?.education"></education-section>
+<div class="resume-container">
+    <header>
+        <div class="name">
+            <span class="first-name">Lucas</span> <span class="last-name">Newman</span>
         </div>
+        <div class="contact">
+            @for (item of (data$ | async)?.contactInfo; track $index) {
+            <contact-item [itemInfo]="item"></contact-item>
+            }
+        </div>
+    </header>
 
+
+    <div class="body-container">
+        <div class="sidebar">
+                <header class="section-header">About</header>
+                <p class="summary">{{ (data$ | async)?.summary }}</p>
+
+                @for (item of (data$ | async)?.skills; track $index) {
+                <skills-category [categoryInfo]="item"></skills-category>
+                }
+
+                <header class="section-header">Education</header>
+                @for (item of (data$ | async)?.education; track $index) {
+                <education-item [itemInfo]="item"></education-item>
+                }
+        </div>
+        <div class="main-content">
+            <header class="section-header">Work History</header>
+            @for (item of (data$ | async)?.workHistory; track $index) {
+            <work-history-item [itemInfo]="item"></work-history-item>
+            }
+        </div>
     </div>
-    <div class="main-content">
-        <work-history-section [sectionInfo]="(data$ | async)?.workHistory"></work-history-section>
-    </div>
+
 </div>

@@ -1,61 +1,23 @@
+@import 'fonts.scss';
+
 :root {
-    --text-color-dark: #364958;
-    --text-color-light: #D1DDE6;
-    --link-color: #5ADBFF;
-    --color-1: #002CCB;
-    --color-2: #7A63FF;
+    --text-color-dark: 0,0,0;
+    --text-color-8: rgba(var(--text-color-dark),0.8);
+    --text-color-6: rgba(var(--text-color-dark),0.6);
+    --text-color-4: rgba(var(--text-color-dark),0.4);
+    --text-color-light: rgba(255,255,255,0.9);
+    --color-1: #11415D;
+    --color-2: #447ea4;
+    --color-3: #68B0AB;
+    --color-4: #EEF0EB;
+    --color-5: #f18500;
     --gradient: -webkit-linear-gradient(270deg, var(--color-1), var(--color-2));
-}
-
-@font-face {
-    font-family: 'Ostrich Light';
-    src: url('../public/fonts/OstrichSans-Light.otf') format('opentype');
-
-}
-
-@font-face {
-    font-family: 'Ostrich Medium';
-    src: url('../public/fonts/OstrichSansRounded-Medium.otf') format('opentype');
-
-}
-
-@font-face {
-    font-family: 'Ostrich Heavy';
-    src: url('../public/fonts/OstrichSans-Heavy.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Ostrich Black';
-    src: url('../public/fonts/OstrichSans-Black.otf') format('opentype');
-}
-
-.ostritch-lt {
-    font-family: 'Ostrich Light', sans-serif;
-}
-
-.ostritch-med {
-    font-family: 'Ostrich Medium', sans-serif;
-}
-
-.ostritch-hvy {
-    font-family: 'Ostrich Heavy', sans-serif;
-}
-
-.ostritch-blk {
-    font-family: 'Ostrich Black', sans-serif;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('../public/fonts/InterDisplay-Regular.woff2') format('woff2');
-}
-
-.inter {
-    font-family: 'Inter';
 }
 
 body {
     margin: 0;
+    font-family: 'Aileron';
+    font-size: 0.9em;
 }
 
 a,
@@ -66,15 +28,45 @@ a:visited {
     color: var(--link-color);
 }
 
-.section-header {
-    font-size: 2em;
-    font-family: 'Ostrich Heavy', sans-serif;
+.lucide {
+    color: var(--color-5);
 }
 
+.section-header {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    font-family: 'Ostrich Medium';
+    border-bottom: 1px solid var(--color-5);
+}
 
+.left-left {
+    display: inline-flex;
+    width: max-content;
+    align-items: flex-start;
+    justify-items: center;
+    gap: 5px;
+}
 
+.left-right {
+    display: inline-flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
 
+ul {
+    margin: 0;
+    padding-inline-start: 1em;
+}
 
+li {
+    line-height: 1.2em;
+    padding: .2em 0em;
+}
+
+li::marker {
+  content: "▸ "; /* Adds a star followed by a space */
+}
 
 @media print {
 
